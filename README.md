@@ -1,87 +1,91 @@
-# ShipAny Template One
+# Mazu Landing Page
 
-Ship Any AI SaaS Startups in hours.
+This is the landing page for Mazu - an offline AI disaster response assistant powered by Google's Gemma 3n model.
 
-![preview](preview.png)
+## Overview
 
-## Quick Start
+Mazu is your guardian AI that works completely offline. Named after the Chinese goddess who protects people in danger, Mazu provides life-saving guidance during emergencies when networks fail.
+
+## Features
+
+- 🛡️ 100% offline operation - no internet required
+- 🤖 Powered by Google Gemma 3n (2.3GB on-device AI)
+- 🌍 Supports 100+ languages
+- ⚡ <2 second response time
+- 🔋 Battery efficient
+- 📱 Works in airplane mode
+
+## Development
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm (recommended) or npm
+
+### Setup
 
 1. Clone the repository
-
 ```bash
-git clone https://github.com/shipanyai/shipany-template-one.git
+cd /path/to/gemma-3n/shipany
 ```
 
 2. Install dependencies
-
 ```bash
 pnpm install
 ```
 
-3. Run the development server
+3. Copy environment variables
+```bash
+cp .env.development .env.local
+```
 
+4. Run development server
 ```bash
 pnpm dev
 ```
 
-## Customize
+5. Open http://localhost:3000
 
-- Set your environment variables
+## Customization
 
+### Content
+- Landing page content: `src/i18n/pages/landing/en.json`
+- Theme colors: `src/app/theme.css`
+- Images: `public/imgs/`
+
+### Adding Video Demo
+When the video is ready, update the `introduce` section in the landing page JSON to include the video component.
+
+### Interactive Demo
+The interactive demo section is configured in the `introduce` section. Update the scenarios and responses as needed.
+
+## Deployment
+
+### Vercel (Recommended)
 ```bash
-cp .env.example .env.development
+vercel
 ```
 
-- Set your theme in `src/app/theme.css`
-
-[tweakcn](https://tweakcn.com/editor/theme)
-
-- Set your landing page content in `src/i18n/pages/landing`
-
-- Set your i18n messages in `src/i18n/messages`
-
-## Deploy
-
-- Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fshipanyai%2Fshipany-template-one&project-name=my-shipany-project&repository-name=my-shipany-project&redirect-url=https%3A%2F%2Fshipany.ai&demo-title=ShipAny&demo-description=Ship%20Any%20AI%20Startup%20in%20hours%2C%20not%20days&demo-url=https%3A%2F%2Fshipany.ai&demo-image=https%3A%2F%2Fpbs.twimg.com%2Fmedia%2FGgGSW3La8AAGJgU%3Fformat%3Djpg%26name%3Dlarge)
-
-- Deploy to Cloudflare
-
-for new project, clone with branch "cloudflare"
-
-```shell
-git clone -b cloudflare https://github.com/shipanyai/shipany-template-one.git
-```
-
-for exist project, checkout to branch "cloudflare"
-
-```shell
-git checkout cloudflare
-```
-
-1. Customize your environment variables
-
+### Build for Production
 ```bash
-cp .env.example .env.production
-cp wrangler.toml.example wrangler.toml
+pnpm build
+pnpm start
 ```
 
-edit your environment variables in `.env.production`
+## Tech Stack
 
-and put all the environment variables under `[vars]` in `wrangler.toml`
+- Next.js 15
+- React 19
+- Tailwind CSS 4
+- Shadcn/UI
+- TypeScript
 
-2. Deploy
+## Credits
 
-```bash
-npm run cf:deploy
-```
-
-## Community
-
-- [ShipAny](https://shipany.ai)
-- [Documentation](https://docs.shipany.ai)
+- Built for Google Gemma Developer Contest 2024
+- Based on ShipAny template
+- Powered by Google Gemma 3n model
 
 ## License
 
-- [ShipAny AI SaaS Boilerplate License Agreement](LICENSE)
+See LICENSE file in the main project repository.

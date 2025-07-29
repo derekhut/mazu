@@ -1,12 +1,12 @@
 {
-  "template": "shipany-template-one",
+  "template": "mazu-landing",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "Mazu",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Mazu"
       },
       "url": "/"
     },
@@ -15,369 +15,384 @@
         {
           "title": "Features",
           "url": "/#feature",
-          "icon": "RiSparkling2Line"
+          "icon": "RiShieldCheckLine"
         },
         {
-          "title": "Pricing",
-          "url": "/pricing",
-          "icon": "RiMoneyDollarCircleLine"
+          "title": "How It Works",
+          "url": "/#usage",
+          "icon": "RiCompass3Line"
         },
         {
-          "title": "Showcase",
-          "url": "/showcase",
-          "icon": "RiApps2Line"
+          "title": "Scenarios",
+          "url": "/#showcase",
+          "icon": "RiFirstAidKitLine"
         },
         {
-          "title": "Docs",
-          "url": "/docs",
-          "icon": "RiBookOpenLine"
+          "title": "GitHub",
+          "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
+          "icon": "RiGithubLine",
+          "target": "_blank"
         }
       ]
     },
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
+        "title": "Download Mazu (2.5GB)",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
         "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
+        "variant": "default",
+        "icon": "RiDownloadLine"
       }
     ],
-    "show_sign": true,
+    "show_sign": false,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
-    "title": "Ship Any AI Startups in hours, not days",
-    "highlight_text": "Ship Any",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups.<br/>Ship Fast with a variety of templates and components.",
+    "title": "When networks fail, Mazu remains",
+    "highlight_text": "Mazu remains",
+    "description": "Your guardian AI that works completely offline. Powered by Gemma 3n, protecting you when you need it most.",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 Happy New Year",
-      "url": "/pricing"
+      "label": "Google Contest",
+      "title": "🏆 Built for Gemma Developer Contest 2024",
+      "url": "/#feature"
     },
-    "tip": "🎁 50% off before 2025",
+    "tip": "🟢 100% On-Device • 🟢 <2s Response • 🟢 Works in Airplane Mode",
     "buttons": [
       {
-        "title": "Get Started",
-        "icon": "RiFlashlightFill",
-        "url": "/pricing",
-        "target": "_self",
+        "title": "Download Mazu (2.5GB)",
+        "icon": "RiDownloadLine",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
+        "target": "_blank",
         "variant": "default"
       },
       {
-        "title": "Read Document",
-        "icon": "RiBookOpenLine",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "Try Demo Below ↓",
+        "icon": "RiCompass3Line",
+        "url": "/#introduce",
+        "target": "_self",
         "variant": "outline"
       }
     ],
-    "show_happy_users": true,
-    "show_badge": false
+    "show_happy_users": false,
+    "show_badge": true
   },
   "branding": {
-    "title": "ShipAny is built on the shoulders of giants",
+    "title": "Powered by cutting-edge technology",
     "items": [
       {
-        "title": "Next.js",
+        "title": "Google Gemma 3n",
         "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
+          "src": "/imgs/logos/google.svg",
+          "alt": "Gemma 3n"
         }
       },
       {
-        "title": "React",
+        "title": "React Native",
         "image": {
           "src": "/imgs/logos/react.svg",
-          "alt": "React"
+          "alt": "React Native"
         }
       },
       {
-        "title": "TailwindCSS",
+        "title": "Expo",
         "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
+          "src": "/imgs/logos/expo.svg",
+          "alt": "Expo"
         }
       },
       {
-        "title": "Shadcn/UI",
+        "title": "GGUF",
         "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
+          "src": "/imgs/logos/llama.svg",
+          "alt": "GGUF Format"
         }
       },
       {
-        "title": "Vercel",
+        "title": "On-Device AI",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/ai.svg",
+          "alt": "On-Device AI"
         }
       }
     ]
   },
   "introduce": {
     "name": "introduce",
-    "title": "What is ShipAny",
-    "label": "Introduce",
-    "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Built in a variety of templates and components.",
+    "title": "Try Mazu in Action",
+    "label": "Interactive Demo",
+    "description": "Click any emergency scenario below to see how Mazu responds. No internet required - all AI processing happens on your device.",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/phone-mockup.png"
     },
     "items": [
       {
-        "title": "Ready-to-use Templates",
-        "description": "Choose from dozens of production-ready AI SaaS templates to quickly start your project.",
-        "icon": "RiNextjsFill"
+        "title": "Earthquake Emergency",
+        "description": "\"I feel shaking, what should I do?\" - Get immediate guidance for earthquake safety.",
+        "icon": "RiEarthquakeLine"
       },
       {
-        "title": "Infrastructure Setup",
-        "description": "Get instant access to scalable infrastructure with best practices built-in.",
-        "icon": "RiDatabase2Line"
+        "title": "Fire Safety",
+        "description": "\"There's smoke in my building\" - Learn evacuation procedures and fire safety.",
+        "icon": "RiFireLine"
       },
       {
-        "title": "Quick Deployment",
-        "description": "Deploy your AI SaaS application to production in hours, not days.",
-        "icon": "RiCloudyFill"
+        "title": "Medical Emergency",
+        "description": "\"Someone needs first aid\" - Get step-by-step medical guidance until help arrives.",
+        "icon": "RiFirstAidKitLine"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "Why Choose ShipAny",
-    "label": "Benefits",
-    "description": "Get everything you need to launch your AI startup - from ready-to-use templates to technical support.",
+    "title": "Why Trust Mazu",
+    "label": "Key Benefits",
+    "description": "Mazu is designed to be your reliable guardian when traditional communication fails.",
     "items": [
       {
-        "title": "Complete Framework",
-        "description": "Built on Next.js with authentication, payments, and AI integration - everything works out of the box.",
-        "icon": "RiNextjsFill",
+        "title": "Your Pocket Guardian",
+        "description": "2.3GB of AI wisdom stored directly on your device. No cloud servers, no internet dependency, complete privacy and reliability.",
+        "icon": "RiShieldCheckLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/offline-ai.png"
         }
       },
       {
-        "title": "Rich Templates Library",
-        "description": "Choose from various AI SaaS templates to kickstart your project - chatbots, image generation, and more.",
-        "icon": "RiClapperboardAiLine",
+        "title": "Understanding Companion",
+        "description": "Mazu remembers your situation throughout the conversation. It tracks injuries, resources, and companions to provide personalized guidance.",
+        "icon": "RiBrainLine",
         "image": {
-          "src": "/imgs/features/3.png"
+          "src": "/imgs/features/context-aware.png"
         }
       },
       {
-        "title": "Technical Guidance",
-        "description": "Get dedicated support and join our developer community to ensure your successful launch.",
-        "icon": "RiCodeFill",
+        "title": "Always Accessible",
+        "description": "Voice or text input, 100+ languages supported. Works in airplane mode, underground, or anywhere without signal.",
+        "icon": "RiGlobalLine",
         "image": {
-          "src": "/imgs/features/4.png"
+          "src": "/imgs/features/multi-language.png"
         }
       }
     ]
   },
   "usage": {
     "name": "usage",
-    "title": "How to Launch with ShipAny",
-    "description": "Get your AI SaaS startup running in three simple steps:",
+    "title": "How to Get Mazu Working",
+    "description": "Three simple steps to have your guardian AI ready:",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/setup.png"
     },
     "image_position": "left",
     "text_align": "center",
     "items": [
       {
-        "title": "Get ShipAny",
-        "description": "Buy ShipAny with a one-time payment. Check your email for the code and documentation.",
+        "title": "Download & Install",
+        "description": "Get the Mazu APK (210MB) from GitHub. Install it on your Android device - it's that simple.",
         "image": {
-          "src": "/imgs/features/5.png"
+          "src": "/imgs/features/download.png"
         }
       },
       {
-        "title": "Start Your Project",
-        "description": "Read the documentation and clone the code of ShipAny. Start building your AI SaaS startup.",
+        "title": "One-Time Setup",
+        "description": "Download the AI model (2.3GB) within the app. Like downloading a guardian angel to your phone.",
         "image": {
-          "src": "/imgs/features/6.png"
+          "src": "/imgs/features/ai-download.png"
         }
       },
       {
-        "title": "Customize Your Project",
-        "description": "Modify the template with your data and contents. Specific AI functionality needs.",
+        "title": "Test in Airplane Mode",
+        "description": "Turn on airplane mode and ask Mazu anything. See it work without any internet connection.",
         "image": {
-          "src": "/imgs/features/7.png"
+          "src": "/imgs/features/airplane-mode.png"
         }
       },
       {
-        "title": "Deploy to Production",
-        "description": "Deploy your project to production with a few steps and start serving customers immediately.",
+        "title": "Always Ready",
+        "description": "Keep your phone charged. Mazu will be there when networks fail and you need help most.",
         "image": {
-          "src": "/imgs/features/8.png"
+          "src": "/imgs/features/ready.png"
         }
       }
     ]
   },
   "feature": {
     "name": "feature",
-    "title": "Key Features of ShipAny",
-    "description": "Everything you need to launch your AI SaaS startup quickly and efficiently.",
+    "title": "Mazu's Life-Saving Features",
+    "description": "Everything designed to help you survive when traditional help is unavailable.",
     "items": [
       {
-        "title": "Next.js Boilerplate",
-        "description": "Production-ready Next.js templates with SEO-friendly structure and i18n support.",
-        "icon": "RiNextjsFill"
+        "title": "100% Offline AI",
+        "description": "2.3GB Gemma 3n model runs entirely on your device. No servers, no internet, just immediate help.",
+        "icon": "RiWifiOffLine"
       },
       {
-        "title": "Authentication & Payments",
-        "description": "Integrated Google OAuth, one-tap login, and Stripe payment processing.",
-        "icon": "RiKey2Fill"
+        "title": "Context-Aware Responses",
+        "description": "Remembers your situation, injuries, and resources throughout the conversation for personalized guidance.",
+        "icon": "RiBrainLine"
       },
       {
-        "title": "Data Infrastructure",
-        "description": "Built-in Supabase integration for reliable and scalable data storage.",
-        "icon": "RiDatabase2Line"
+        "title": "Multi-Disaster Support",
+        "description": "Trained on Red Cross protocols for earthquakes, fires, floods, medical emergencies, and more.",
+        "icon": "RiAlertLine"
       },
       {
-        "title": "One-Click Deployment",
-        "description": "Seamless deployment to Vercel or Cloudflare with automated setup.",
-        "icon": "RiCloudy2Fill"
+        "title": "Voice & Text Input",
+        "description": "Hands injured? Use voice. Need silence? Type. Mazu adapts to your emergency conditions.",
+        "icon": "RiMicLine"
       },
       {
-        "title": "Business Analytics",
-        "description": "Integrated Google Analytics and Search Console for tracking growth.",
-        "icon": "RiBarChart2Line"
+        "title": "100+ Languages",
+        "description": "Get help in your native language. Gemma 3n supports over 100 languages for global coverage.",
+        "icon": "RiTranslate2"
       },
       {
-        "title": "AI-Ready Infrastructure",
-        "description": "Pre-configured AI integration with built-in credits system and API sales.",
-        "icon": "RiRobot2Line"
+        "title": "Battery Efficient",
+        "description": "Optimized to preserve battery life during emergencies when charging may not be possible.",
+        "icon": "RiBatteryLowLine"
       }
     ]
   },
   "stats": {
     "name": "stats",
     "label": "Stats",
-    "title": "People Love ShipAny",
-    "description": "for it's easy to use and fast to ship.",
-    "icon": "FaRegHeart",
+    "title": "Built for Reliability",
+    "description": "When every second counts, Mazu delivers.",
+    "icon": "RiShieldCheckLine",
     "items": [
       {
-        "title": "Trusted by",
-        "label": "99+",
-        "description": "Customers"
+        "title": "Complete AI",
+        "label": "2.3GB",
+        "description": "On Device"
       },
       {
-        "title": "Built in",
-        "label": "20+",
-        "description": "Components"
+        "title": "Response Time",
+        "label": "<2",
+        "description": "Seconds"
       },
       {
-        "title": "Ship Fast in",
-        "label": "5",
-        "description": "Minutes"
+        "title": "Languages",
+        "label": "100+",
+        "description": "Supported"
+      }
+    ]
+  },
+  "showcase": {
+    "name": "showcase",
+    "label": "Emergency Scenarios",
+    "title": "Mazu Helps in Any Disaster",
+    "description": "Click each scenario to see how Mazu provides life-saving guidance.",
+    "items": [
+      {
+        "title": "Earthquake Safety",
+        "label": "Natural Disaster",
+        "description": "Drop, Cover, Hold On. Find safe spots. Check for injuries. Prepare for aftershocks.",
+        "image": {
+          "src": "/imgs/showcases/earthquake.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "Fire Evacuation",
+        "label": "Emergency",
+        "description": "Stay low. Check doors. Find exits. Never use elevators. Cover mouth and nose.",
+        "image": {
+          "src": "/imgs/showcases/fire.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "Flood Response",
+        "label": "Natural Disaster",
+        "description": "Move to higher ground. Avoid electrical hazards. Don't walk in moving water.",
+        "image": {
+          "src": "/imgs/showcases/flood.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "Medical Emergency",
+        "label": "First Aid",
+        "description": "Check breathing. Control bleeding. CPR guidance. Shock treatment. Call for help.",
+        "image": {
+          "src": "/imgs/showcases/medical.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "Hurricane Prep",
+        "label": "Natural Disaster",
+        "description": "Secure shelter. Emergency supplies. Evacuation routes. Post-storm safety.",
+        "image": {
+          "src": "/imgs/showcases/hurricane.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "Power Outage",
+        "label": "Infrastructure",
+        "description": "Preserve phone battery. Food safety. Alternative heating. Emergency lighting.",
+        "image": {
+          "src": "/imgs/showcases/power.png"
+        },
+        "url": "#"
       }
     ]
   },
   "testimonial": {
     "name": "testimonial",
     "label": "Testimonial",
-    "title": "What Users Say About ShipAny",
-    "description": "Hear from developers and founders who launched their AI startups with ShipAny.",
-    "icon": "GoThumbsup",
-    "items": [
-      {
-        "title": "David Chen",
-        "label": "Founder of AIWallpaper.shop",
-        "description": "ShipAny saved us months of development time. We launched our AI wallpaper business in just 2 days and got our first paying customer within a week!",
-        "image": {
-          "src": "/imgs/users/1.png"
-        }
-      },
-      {
-        "title": "Rachel Kim",
-        "label": "CTO at HeyBeauty.ai",
-        "description": "The pre-built AI infrastructure is a game-changer. We didn't have to worry about architecture - just focused on our AI beauty tech and went live fast.",
-        "image": {
-          "src": "/imgs/users/2.png"
-        }
-      },
-      {
-        "title": "Marcus Thompson",
-        "label": "Solo Developer",
-        "description": "As a solo developer, ShipAny gave me everything I needed - auth, payments, AI integration, and beautiful UI. Launched my SaaS in a weekend!",
-        "image": {
-          "src": "/imgs/users/3.png"
-        }
-      },
-      {
-        "title": "Sofia Garcia",
-        "label": "CEO of Melodisco",
-        "description": "The templates are production-ready and highly customizable. We built our AI music platform in hours instead of months. Incredible time-to-market!",
-        "image": {
-          "src": "/imgs/users/4.png"
-        }
-      },
-      {
-        "title": "James Wilson",
-        "label": "Tech Lead at GPTs.works",
-        "description": "ShipAny's infrastructure is rock-solid. We scaled from 0 to 10k users without touching the backend. Best investment for our AI startup.",
-        "image": {
-          "src": "/imgs/users/5.png"
-        }
-      },
-      {
-        "title": "Anna Zhang",
-        "label": "Startup Founder",
-        "description": "From idea to launch in 3 days! ShipAny's templates and deployment tools made it possible to test our AI business concept incredibly fast.",
-        "image": {
-          "src": "/imgs/users/6.png"
-        }
-      }
-    ]
+    "title": "Early Feedback",
+    "description": "What beta testers are saying about Mazu.",
+    "icon": "RiHeartLine",
+    "disabled": true,
+    "items": []
   },
   "faq": {
     "name": "faq",
     "label": "FAQ",
-    "title": "Frequently Asked Questions About ShipAny",
-    "description": "Have another question? Contact us on Discord or by email.",
+    "title": "Common Questions About Mazu",
+    "description": "Have a question? Check our GitHub or submit an issue.",
     "items": [
       {
-        "title": "What exactly is ShipAny and how does it work?",
-        "description": "ShipAny is a comprehensive NextJS boilerplate designed specifically for building AI SaaS startups. It provides ready-to-use templates, infrastructure setup, and deployment tools that help you launch your AI business in hours instead of days."
+        "title": "Why is Mazu 2.5GB in total?",
+        "description": "The app itself is 210MB, but the Gemma 3n AI model is 2.3GB. This is a complete AI brain that runs on your device - no internet needed. Think of it as downloading all the emergency knowledge you'll ever need."
       },
       {
-        "title": "Do I need advanced technical skills to use ShipAny?",
-        "description": "While basic programming knowledge is helpful, ShipAny is designed to be developer-friendly. Our templates and documentation make it easy to get started, even if you're not an expert in AI or cloud infrastructure."
+        "title": "How does offline AI actually work?",
+        "description": "Mazu uses Google's Gemma 3n model in GGUF format, which is optimized for mobile devices. All AI processing happens on your phone's processor - no cloud servers, no internet connection required."
       },
       {
-        "title": "What types of AI SaaS can I build with ShipAny?",
-        "description": "ShipAny supports a wide range of AI applications, from content generation to data analysis tools. Our templates cover popular use cases like AI chatbots, content generators, image processing apps, and more."
+        "title": "Which emergencies does Mazu support?",
+        "description": "Mazu is trained on Red Cross protocols and emergency response guidelines. It covers earthquakes, fires, floods, hurricanes, medical emergencies, power outages, and general disaster scenarios."
       },
       {
-        "title": "How long does it typically take to launch with ShipAny?",
-        "description": "With ShipAny, you can have a working prototype in hours and a production-ready application in hours. Our one-click deployment and pre-configured infrastructure significantly reduce the traditional months-long development cycle."
+        "title": "What about battery usage?",
+        "description": "Mazu is optimized for emergency use. In standby, it uses minimal battery. During active use, it's comparable to using a messaging app. We recommend keeping your phone charged as part of emergency preparedness."
       },
       {
-        "title": "What's included in the ShipAny infrastructure?",
-        "description": "ShipAny provides a complete infrastructure stack including authentication, database setup, API integration, payment processing, and scalable cloud deployment. Everything is pre-configured following industry best practices."
+        "title": "Can I trust Mazu's advice?",
+        "description": "Mazu follows established emergency protocols from organizations like the Red Cross. However, it's an AI assistant, not a replacement for professional emergency services. When available, always call official emergency numbers."
       },
       {
-        "title": "Can I customize the templates to match my brand?",
-        "description": "Absolutely! All ShipAny templates are fully customizable. You can modify the design, features, and functionality to match your brand identity and specific business requirements while maintaining the robust underlying infrastructure."
+        "title": "Is Mazu really free?",
+        "description": "Yes, completely free. No subscriptions, no in-app purchases, no ads. This is our submission for the Google Gemma Developer Contest, built to help people in emergencies."
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "Ship your first AI SaaS Startup",
-    "description": "Start from here, ship with ShipAny.",
+    "title": "Let Mazu Watch Over You",
+    "description": "Download your guardian AI today. Because sometimes, technology should be as reliable as a lighthouse in the storm.",
     "buttons": [
       {
-        "title": "Get ShipAny",
-        "url": "https://shipany.ai",
+        "title": "Download Complete Package (2.5GB)",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
         "target": "_blank",
-        "icon": "GoArrowUpRight"
+        "icon": "RiDownloadLine"
       },
       {
-        "title": "Read Document",
-        "url": "https://docs.shipany.ai",
+        "title": "View on GitHub",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
         "target": "_blank",
         "variant": "outline"
       }
@@ -386,19 +401,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny is a NextJS boilerplate for building AI SaaS startups. Ship Fast with a variety of templates and components.",
+      "title": "Mazu",
+      "description": "Your guardian AI that works completely offline. Named after the goddess who protects people in danger.",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Mazu"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny All rights reserved.",
+    "copyright": "© 2025 • Made with ❤️ for Google Gemma Developer Contest",
     "nav": {
       "items": [
         {
-          "title": "About",
+          "title": "Quick Links",
           "children": [
             {
               "title": "Features",
@@ -406,13 +421,13 @@
               "target": "_self"
             },
             {
-              "title": "Showcases",
-              "url": "/#showcase",
+              "title": "How It Works",
+              "url": "/#usage",
               "target": "_self"
             },
             {
-              "title": "Pricing",
-              "url": "/#pricing",
+              "title": "Emergency Scenarios",
+              "url": "/#showcase",
               "target": "_self"
             }
           ]
@@ -421,39 +436,39 @@
           "title": "Resources",
           "children": [
             {
-              "title": "Documents",
-              "url": "https://docs.shipany.ai",
+              "title": "GitHub Repository",
+              "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
               "target": "_blank"
             },
             {
-              "title": "Components",
-              "url": "https://shipany.ai/components",
+              "title": "Download APK",
+              "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
               "target": "_blank"
             },
             {
-              "title": "Templates",
-              "url": "https://shipany.ai/templates",
+              "title": "Report Issues",
+              "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/issues",
               "target": "_blank"
             }
           ]
         },
         {
-          "title": "Friends",
+          "title": "About",
           "children": [
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
+              "title": "Google Gemma",
+              "url": "https://ai.google.dev/gemma",
               "target": "_blank"
             },
             {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
+              "title": "Contest Entry",
+              "url": "https://ai.google.dev/competition",
               "target": "_blank"
             },
             {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "Privacy",
+              "url": "/privacy-policy",
+              "target": "_self"
             }
           ]
         }
@@ -462,28 +477,10 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
-          "target": "_blank"
-        },
-        {
           "title": "Github",
           "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
+          "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
           "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
-          "target": "_blank"
-        },
-        {
-          "title": "Email",
-          "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
-          "target": "_self"
         }
       ]
     },
@@ -494,8 +491,8 @@
           "url": "/privacy-policy"
         },
         {
-          "title": "Terms of Service",
-          "url": "/terms-of-service"
+          "title": "Open Source License",
+          "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/blob/main/LICENSE"
         }
       ]
     }
