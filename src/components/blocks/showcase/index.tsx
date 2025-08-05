@@ -25,15 +25,24 @@ export default function Showcase({ section }: { section: SectionType }) {
           <Link key={index} href={item.url || ""} target={item.target}>
             <Card className="overflow-hidden transition-all hover:shadow-lg dark:hover:shadow-primary/10 p-0">
               <CardContent className="p-0">
-                <div className="relative aspect-[16/10] w-full overflow-hidden">
-                  <Image
-                    src={item.image?.src || ""}
-                    alt={item.image?.alt || item.title || ""}
-                    fill
-                    className="object-cover rounded-t-lg transition-transform duration-300 hover:scale-110"
-                  />
-                </div>
+                {item.image?.src && (
+                  <div className="relative aspect-[16/10] w-full overflow-hidden">
+                    <Image
+                      src={item.image.src}
+                      alt={item.image.alt || item.title || ""}
+                      fill
+                      className="object-cover rounded-t-lg transition-transform duration-300 hover:scale-110"
+                    />
+                  </div>
+                )}
                 <div className="p-6">
+                  <div className="flex items-center gap-2 mb-2">
+                    {item.label && (
+                      <span className="text-xs text-muted-foreground uppercase tracking-wider">
+                        {item.label}
+                      </span>
+                    )}
+                  </div>
                   <h3 className="text-xl font-semibold mb-2 line-clamp-1">
                     {item.title}
                   </h3>

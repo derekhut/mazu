@@ -52,11 +52,6 @@
     "title": "当网络失效时，妈祖仍在守护",
     "highlight_text": "妈祖仍在守护",
     "description": "您的守护 AI，完全离线工作。由 Gemma 3n 驱动，在您最需要的时候保护您。",
-    "announcement": {
-      "label": "Google 竞赛",
-      "title": "🏆 为 Gemma 开发者竞赛 2024 打造",
-      "url": "/#feature"
-    },
     "tip": "🟢 100% 设备端 • 🟢 <2秒响应 • 🟢 飞行模式下工作",
     "buttons": [
       {
@@ -75,7 +70,7 @@
       }
     ],
     "show_happy_users": false,
-    "show_badge": true
+    "show_badge": false
   },
   "branding": {
     "title": "由尖端技术驱动",
@@ -148,30 +143,24 @@
     "title": "为什么信任 Mazu",
     "label": "核心优势",
     "description": "Mazu 旨在成为您在传统通信失效时的可靠守护者。",
+    "image": {
+      "src": "/imgs/features/why-trust-mazu-mockup.png"
+    },
     "items": [
       {
         "title": "您的口袋守护者",
         "description": "2.3GB 的 AI 智慧直接存储在您的设备上。无需云服务器，无需互联网依赖，完全隐私和可靠。",
-        "icon": "RiShieldCheckLine",
-        "image": {
-          "src": "/imgs/features/offline-ai.png"
-        }
+        "icon": "RiShieldCheckLine"
       },
       {
         "title": "理解您的伴侣",
         "description": "Mazu 在整个对话过程中记住您的情况。它跟踪伤势、资源和同伴，以提供个性化指导。",
-        "icon": "RiBrainLine",
-        "image": {
-          "src": "/imgs/features/context-aware.png"
-        }
+        "icon": "RiBrainLine"
       },
       {
         "title": "始终可访问",
         "description": "语音或文本输入，支持 100 多种语言。在飞行模式、地下或任何没有信号的地方都能工作。",
-        "icon": "RiGlobalLine",
-        "image": {
-          "src": "/imgs/features/multi-language.png"
-        }
+        "icon": "RiGlobalLine"
       }
     ]
   },
@@ -343,54 +332,36 @@
         "title": "地震安全",
         "label": "自然灾害",
         "description": "蹲下、掩护、抓牢。寻找安全点。检查伤势。准备应对余震。",
-        "image": {
-          "src": "/imgs/showcases/earthquake.png"
-        },
         "url": "#"
       },
       {
         "title": "火灾疏散",
         "label": "紧急情况",
         "description": "保持低姿。检查门温。寻找出口。切勿使用电梯。捂住口鼻。",
-        "image": {
-          "src": "/imgs/showcases/fire.png"
-        },
         "url": "#"
       },
       {
         "title": "洪水应对",
         "label": "自然灾害",
         "description": "转移到高处。避开电气危险。不要在流动的水中行走。",
-        "image": {
-          "src": "/imgs/showcases/flood.png"
-        },
         "url": "#"
       },
       {
         "title": "医疗急救",
         "label": "急救",
         "description": "检查呼吸。控制出血。心肺复苏指导。休克处理。呼叫救援。",
-        "image": {
-          "src": "/imgs/showcases/medical.png"
-        },
         "url": "#"
       },
       {
         "title": "飓风准备",
         "label": "自然灾害",
         "description": "加固避难所。应急物资。疏散路线。风暴后安全。",
-        "image": {
-          "src": "/imgs/showcases/hurricane.png"
-        },
         "url": "#"
       },
       {
         "title": "停电应对",
         "label": "基础设施",
         "description": "节省手机电池。食品安全。替代取暖。应急照明。",
-        "image": {
-          "src": "/imgs/showcases/power.png"
-        },
         "url": "#"
       }
     ]

@@ -52,11 +52,6 @@
     "title": "When networks fail, Mazu remains",
     "highlight_text": "Mazu remains",
     "description": "Your guardian AI that works completely offline. Powered by Gemma 3n, protecting you when you need it most.",
-    "announcement": {
-      "label": "Google Contest",
-      "title": "🏆 Built for Gemma Developer Contest 2024",
-      "url": "/#feature"
-    },
     "tip": "🟢 100% On-Device • 🟢 <2s Response • 🟢 Works in Airplane Mode",
     "buttons": [
       {
@@ -75,7 +70,7 @@
       }
     ],
     "show_happy_users": false,
-    "show_badge": true
+    "show_badge": false
   },
   "branding": {
     "title": "Powered by cutting-edge technology",
@@ -148,30 +143,24 @@
     "title": "Why Trust Mazu",
     "label": "Key Benefits",
     "description": "Mazu is designed to be your reliable guardian when traditional communication fails.",
+    "image": {
+      "src": "/imgs/features/why-trust-mazu-mockup.png"
+    },
     "items": [
       {
         "title": "Your Pocket Guardian",
         "description": "2.3GB of AI wisdom stored directly on your device. No cloud servers, no internet dependency, complete privacy and reliability.",
-        "icon": "RiShieldCheckLine",
-        "image": {
-          "src": "/imgs/features/offline-ai.png"
-        }
+        "icon": "RiShieldCheckLine"
       },
       {
         "title": "Understanding Companion",
         "description": "Mazu remembers your situation throughout the conversation. It tracks injuries, resources, and companions to provide personalized guidance.",
-        "icon": "RiBrainLine",
-        "image": {
-          "src": "/imgs/features/context-aware.png"
-        }
+        "icon": "RiBrainLine"
       },
       {
         "title": "Always Accessible",
         "description": "Voice or text input, 100+ languages supported. Works in airplane mode, underground, or anywhere without signal.",
-        "icon": "RiGlobalLine",
-        "image": {
-          "src": "/imgs/features/multi-language.png"
-        }
+        "icon": "RiGlobalLine"
       }
     ]
   },
@@ -286,54 +275,36 @@
         "title": "Earthquake Safety",
         "label": "Natural Disaster",
         "description": "Drop, Cover, Hold On. Find safe spots. Check for injuries. Prepare for aftershocks.",
-        "image": {
-          "src": "/imgs/showcases/earthquake.png"
-        },
         "url": "#"
       },
       {
         "title": "Fire Evacuation",
         "label": "Emergency",
         "description": "Stay low. Check doors. Find exits. Never use elevators. Cover mouth and nose.",
-        "image": {
-          "src": "/imgs/showcases/fire.png"
-        },
         "url": "#"
       },
       {
         "title": "Flood Response",
         "label": "Natural Disaster",
         "description": "Move to higher ground. Avoid electrical hazards. Don't walk in moving water.",
-        "image": {
-          "src": "/imgs/showcases/flood.png"
-        },
         "url": "#"
       },
       {
         "title": "Medical Emergency",
         "label": "First Aid",
         "description": "Check breathing. Control bleeding. CPR guidance. Shock treatment. Call for help.",
-        "image": {
-          "src": "/imgs/showcases/medical.png"
-        },
         "url": "#"
       },
       {
         "title": "Hurricane Prep",
         "label": "Natural Disaster",
         "description": "Secure shelter. Emergency supplies. Evacuation routes. Post-storm safety.",
-        "image": {
-          "src": "/imgs/showcases/hurricane.png"
-        },
         "url": "#"
       },
       {
         "title": "Power Outage",
         "label": "Infrastructure",
         "description": "Preserve phone battery. Food safety. Alternative heating. Emergency lighting.",
-        "image": {
-          "src": "/imgs/showcases/power.png"
-        },
         "url": "#"
       }
     ]

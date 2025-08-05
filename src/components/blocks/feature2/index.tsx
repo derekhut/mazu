@@ -102,28 +102,36 @@ export default function Feature2({ section }: { section: SectionType }) {
               ))}
             </Accordion>
           </div>
-          <div>
-            <Carousel
-              opts={{
-                duration: 50,
-              }}
-              setApi={setApi}
-              plugins={[Fade()]}
-            >
-              <CarouselContent>
-                {section.items?.map((item, i) => (
-                  <CarouselItem key={i}>
-                    <div>
-                      <img
-                        src={item.image?.src}
-                        alt={item.image?.alt || item.title}
-                        className="max-h-auto w-full object-cover lg:max-h-none rounded-md"
-                      />
-                    </div>
-                  </CarouselItem>
-                ))}
-              </CarouselContent>
-            </Carousel>
+          <div className="flex items-center justify-center">
+            {section.image ? (
+              <img
+                src={section.image.src}
+                alt={section.image.alt || section.title}
+                className="w-auto max-w-[450px] lg:max-w-[700px] rounded-md object-contain"
+              />
+            ) : (
+              <Carousel
+                opts={{
+                  duration: 50,
+                }}
+                setApi={setApi}
+                plugins={[Fade()]}
+              >
+                <CarouselContent>
+                  {section.items?.map((item, i) => (
+                    <CarouselItem key={i}>
+                      <div>
+                        <img
+                          src={item.image?.src}
+                          alt={item.image?.alt || item.title}
+                          className="max-h-auto w-full object-cover lg:max-h-none rounded-md"
+                        />
+                      </div>
+                    </CarouselItem>
+                  ))}
+                </CarouselContent>
+              </Carousel>
+            )}
           </div>
         </div>
       </div>
