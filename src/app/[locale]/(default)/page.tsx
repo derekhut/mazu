@@ -45,7 +45,8 @@ export default async function LandingPage({
     <>
       {page.hero && <Hero hero={page.hero} />}
       <VideoDemo 
-        videoFile="/video/mazu-demo.mp4"
+        videoId="VfJikuZMR4E"
+        platform="youtube"
         posterImage="/imgs/video-poster.jpg"
       />
       <InteractiveMazuDemo />
