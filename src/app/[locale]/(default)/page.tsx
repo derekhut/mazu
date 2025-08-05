@@ -11,6 +11,7 @@ import Pricing from "@/components/blocks/pricing";
 import Showcase from "@/components/blocks/showcase";
 import Stats from "@/components/blocks/stats";
 import Testimonial from "@/components/blocks/testimonial";
+import VideoDemo from "@/components/blocks/video-demo";
 import { getLandingPage } from "@/services/page";
 
 export async function generateMetadata({
@@ -43,6 +44,10 @@ export default async function LandingPage({
   return (
     <>
       {page.hero && <Hero hero={page.hero} />}
+      <VideoDemo 
+        videoFile="/video/mazu-demo.mp4"
+        posterImage="/imgs/video-poster.jpg"
+      />
       <InteractiveMazuDemo />
       {page.benefit && <Feature2 section={page.benefit} />}
       {page.usage && <Feature3 section={page.usage} />}
