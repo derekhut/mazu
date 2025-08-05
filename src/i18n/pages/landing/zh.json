@@ -1,12 +1,12 @@
 {
-  "template": "shipany-template-one",
+  "template": "mazu-landing",
   "theme": "light",
   "header": {
     "brand": {
-      "title": "ShipAny",
+      "title": "Mazu",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Mazu"
       },
       "url": "/"
     },
@@ -15,201 +15,202 @@
         {
           "title": "功能特点",
           "url": "/#feature",
-          "icon": "RiSparkling2Line"
+          "icon": "RiShieldCheckLine"
         },
         {
-          "title": "定价",
-          "url": "/pricing",
-          "icon": "RiMoneyDollarCircleLine"
+          "title": "如何使用",
+          "url": "/#usage",
+          "icon": "RiCompass3Line"
         },
         {
-          "title": "案例展示",
-          "url": "/showcase",
-          "icon": "RiApps2Line"
+          "title": "应急场景",
+          "url": "/#showcase",
+          "icon": "RiFirstAidKitLine"
         },
         {
-          "title": "文档",
-          "url": "/docs",
-          "icon": "RiBookOpenLine"
+          "title": "GitHub",
+          "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
+          "icon": "RiGithubLine",
+          "target": "_blank"
         }
       ]
     },
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
+        "title": "下载 Mazu (2.5GB)",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
         "target": "_blank",
-        "variant": "link",
-        "icon": "RiArrowRightUpLine"
+        "variant": "default",
+        "icon": "RiDownloadLine"
       }
     ],
-    "show_sign": true,
+    "show_sign": false,
     "show_theme": true,
     "show_locale": true
   },
   "hero": {
-    "title": "几小时内快速构建 AI 创业项目，而不是几天",
-    "highlight_text": "快速构建",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。<br/>通过丰富的模板和组件快速启动。",
+    "title": "当网络失效时，妈祖仍在守护",
+    "highlight_text": "妈祖仍在守护",
+    "description": "您的守护 AI，完全离线工作。由 Gemma 3n 驱动，在您最需要的时候保护您。",
     "announcement": {
-      "label": "2025",
-      "title": "🎉 新年快乐",
-      "url": "/pricing"
+      "label": "Google 竞赛",
+      "title": "🏆 为 Gemma 开发者竞赛 2024 打造",
+      "url": "/#feature"
     },
-    "tip": "🎁 2025年前五折优惠",
+    "tip": "🟢 100% 设备端 • 🟢 <2秒响应 • 🟢 飞行模式下工作",
     "buttons": [
       {
-        "title": "立即开始",
-        "icon": "RiFlashlightFill",
-        "url": "/pricing",
-        "target": "_self",
+        "title": "下载 Mazu (2.5GB)",
+        "icon": "RiDownloadLine",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
+        "target": "_blank",
         "variant": "default"
       },
       {
-        "title": "阅读文档",
-        "icon": "RiBookOpenLine",
-        "url": "https://docs.shipany.ai",
-        "target": "_blank",
+        "title": "试用下方演示 ↓",
+        "icon": "RiCompass3Line",
+        "url": "/#introduce",
+        "target": "_self",
         "variant": "outline"
       }
     ],
-    "show_happy_users": true,
-    "show_badge": false
+    "show_happy_users": false,
+    "show_badge": true
   },
   "branding": {
-    "title": "ShipAny 建立在巨人的肩膀上",
+    "title": "由尖端技术驱动",
     "items": [
       {
-        "title": "Next.js",
+        "title": "Google Gemma 3n",
         "image": {
-          "src": "/imgs/logos/nextjs.svg",
-          "alt": "Next.js"
+          "src": "/imgs/logos/google.svg",
+          "alt": "Gemma 3n"
         }
       },
       {
-        "title": "React",
+        "title": "React Native",
         "image": {
           "src": "/imgs/logos/react.svg",
-          "alt": "React"
+          "alt": "React Native"
         }
       },
       {
-        "title": "TailwindCSS",
+        "title": "Expo",
         "image": {
-          "src": "/imgs/logos/tailwindcss.svg",
-          "alt": "TailwindCSS"
+          "src": "/imgs/logos/expo.svg",
+          "alt": "Expo"
         }
       },
       {
-        "title": "Shadcn/UI",
+        "title": "GGUF",
         "image": {
-          "src": "/imgs/logos/shadcn.svg",
-          "alt": "Shadcn/UI"
+          "src": "/imgs/logos/llama.svg",
+          "alt": "GGUF Format"
         }
       },
       {
-        "title": "Vercel",
+        "title": "设备端 AI",
         "image": {
-          "src": "/imgs/logos/vercel.svg",
-          "alt": "Vercel"
+          "src": "/imgs/logos/ai.svg",
+          "alt": "On-Device AI"
         }
       }
     ]
   },
   "introduce": {
     "name": "introduce",
-    "title": "什么是 ShipAny",
-    "label": "介绍",
-    "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板，内置多种模板和组件。",
+    "title": "体验 Mazu 的实际效果",
+    "label": "互动演示",
+    "description": "点击下方任何紧急场景，查看 Mazu 如何响应。无需互联网 - 所有 AI 处理都在您的设备上进行。",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/phone-mockup.png"
     },
     "items": [
       {
-        "title": "即用型模板",
-        "description": "从数十个生产就绪的 AI SaaS 模板中选择，快速启动您的项目。",
-        "icon": "RiNextjsFill"
+        "title": "地震紧急情况",
+        "description": "“我感觉到晃动，该怎么办？” - 立即获得地震安全指导。",
+        "icon": "RiEarthquakeLine"
       },
       {
-        "title": "基础设施配置",
-        "description": "立即获取内置最佳实践的可扩展基础设施。",
-        "icon": "RiDatabase2Line"
+        "title": "火灾安全",
+        "description": "“我的建筑物里有烟” - 学习疏散程序和火灾安全。",
+        "icon": "RiFireLine"
       },
       {
-        "title": "快速部署",
-        "description": "在几小时内将您的 AI SaaS 应用部署到生产环境，而不是几天。",
-        "icon": "RiCloudyFill"
+        "title": "医疗紧急情况",
+        "description": "“有人需要急救” - 获得逐步医疗指导，直到救援到达。",
+        "icon": "RiFirstAidKitLine"
       }
     ]
   },
   "benefit": {
     "name": "benefit",
-    "title": "为什么选择 ShipAny",
-    "label": "优势",
-    "description": "获取启动 AI 创业所需的一切 - 从即用型模板到技术支持。",
+    "title": "为什么信任 Mazu",
+    "label": "核心优势",
+    "description": "Mazu 旨在成为您在传统通信失效时的可靠守护者。",
     "items": [
       {
-        "title": "完整框架",
-        "description": "基于 Next.js 构建，集成身份验证、支付和 AI 功能 - 一切开箱即用。",
-        "icon": "RiNextjsFill",
+        "title": "您的口袋守护者",
+        "description": "2.3GB 的 AI 智慧直接存储在您的设备上。无需云服务器，无需互联网依赖，完全隐私和可靠。",
+        "icon": "RiShieldCheckLine",
         "image": {
-          "src": "/imgs/features/2.png"
+          "src": "/imgs/features/offline-ai.png"
         }
       },
       {
-        "title": "丰富的模板库",
-        "description": "选择各种 AI SaaS 模板来启动您的项目 - 聊天机器人、图像生成等。",
-        "icon": "RiClapperboardAiLine",
+        "title": "理解您的伴侣",
+        "description": "Mazu 在整个对话过程中记住您的情况。它跟踪伤势、资源和同伴，以提供个性化指导。",
+        "icon": "RiBrainLine",
         "image": {
-          "src": "/imgs/features/3.png"
+          "src": "/imgs/features/context-aware.png"
         }
       },
       {
-        "title": "技术指导",
-        "description": "获得专门支持并加入我们的开发者社区，确保您成功启动。",
-        "icon": "RiCodeFill",
+        "title": "始终可访问",
+        "description": "语音或文本输入，支持 100 多种语言。在飞行模式、地下或任何没有信号的地方都能工作。",
+        "icon": "RiGlobalLine",
         "image": {
-          "src": "/imgs/features/4.png"
+          "src": "/imgs/features/multi-language.png"
         }
       }
     ]
   },
   "usage": {
     "name": "usage",
-    "title": "如何使用 ShipAny 启动项目",
-    "description": "通过三个简单步骤启动您的 AI SaaS 创业项目：",
+    "title": "如何让 Mazu 开始工作",
+    "description": "三个简单步骤，让您的守护 AI 准备就绪：",
     "image": {
-      "src": "/imgs/features/1.png"
+      "src": "/imgs/features/setup.png"
     },
     "image_position": "left",
     "text_align": "center",
     "items": [
       {
-        "title": "获取 ShipAny",
-        "description": "一次性付款购买 ShipAny。查收邮件获取代码和文档。",
+        "title": "下载并安装",
+        "description": "从 GitHub 获取 Mazu APK (210MB)。将其安装在您的 Android 设备上 - 就这么简单。",
         "image": {
-          "src": "/imgs/features/5.png"
+          "src": "/imgs/features/download.png"
         }
       },
       {
-        "title": "开始您的项目",
-        "description": "阅读文档并克隆 ShipAny 代码。开始构建您的 AI SaaS 创业项目。",
+        "title": "一次性设置",
+        "description": "在应用内下载 AI 模型 (2.3GB)。就像将守护天使下载到您的手机。",
         "image": {
-          "src": "/imgs/features/6.png"
+          "src": "/imgs/features/ai-download.png"
         }
       },
       {
-        "title": "定制您的项目",
-        "description": "使用您的数据和内容修改模板。满足特定的 AI 功能需求。",
+        "title": "在飞行模式下测试",
+        "description": "打开飞行模式，向 Mazu 询问任何问题。看到它在没有任何互联网连接的情况下工作。",
         "image": {
-          "src": "/imgs/features/7.png"
+          "src": "/imgs/features/airplane-mode.png"
         }
       },
       {
-        "title": "部署到生产环境",
-        "description": "通过几个步骤将项目部署到生产环境，立即开始服务客户。",
+        "title": "时刻准备",
+        "description": "保持您的手机充电。当网络失效且您最需要帮助时，Mazu 将会在那里。",
         "image": {
-          "src": "/imgs/features/8.png"
+          "src": "/imgs/features/ready.png"
         }
       }
     ]
