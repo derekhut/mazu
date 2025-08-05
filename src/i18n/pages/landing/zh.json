@@ -333,52 +333,114 @@
       }
     ]
   },
+  "showcase": {
+    "name": "showcase",
+    "label": "紧急场景",
+    "title": "Mazu 在任何灾害中提供帮助",
+    "description": "点击每个场景，查看 Mazu 如何提供救生指导。",
+    "items": [
+      {
+        "title": "地震安全",
+        "label": "自然灾害",
+        "description": "蹲下、掩护、抓牢。寻找安全点。检查伤势。准备应对余震。",
+        "image": {
+          "src": "/imgs/showcases/earthquake.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "火灾疏散",
+        "label": "紧急情况",
+        "description": "保持低姿。检查门温。寻找出口。切勿使用电梯。捂住口鼻。",
+        "image": {
+          "src": "/imgs/showcases/fire.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "洪水应对",
+        "label": "自然灾害",
+        "description": "转移到高处。避开电气危险。不要在流动的水中行走。",
+        "image": {
+          "src": "/imgs/showcases/flood.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "医疗急救",
+        "label": "急救",
+        "description": "检查呼吸。控制出血。心肺复苏指导。休克处理。呼叫救援。",
+        "image": {
+          "src": "/imgs/showcases/medical.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "飓风准备",
+        "label": "自然灾害",
+        "description": "加固避难所。应急物资。疏散路线。风暴后安全。",
+        "image": {
+          "src": "/imgs/showcases/hurricane.png"
+        },
+        "url": "#"
+      },
+      {
+        "title": "停电应对",
+        "label": "基础设施",
+        "description": "节省手机电池。食品安全。替代取暖。应急照明。",
+        "image": {
+          "src": "/imgs/showcases/power.png"
+        },
+        "url": "#"
+      }
+    ]
+  },
   "faq": {
     "name": "faq",
     "label": "常见问题",
-    "title": "关于 ShipAny 的常见问题",
-    "description": "还有其他问题？通过 Discord 或电子邮件联系我们。",
+    "title": "关于 Mazu 的常见问题",
+    "description": "还有问题？请在 GitHub 上查看或提交问题。",
     "items": [
       {
-        "title": "ShipAny 究竟是什么，它是如何工作的？",
-        "description": "ShipAny 是一个专门为构建 AI SaaS 创业项目设计的综合性 NextJS 模板。它提供即用型模板、基础设施设置和部署工具，帮助您在几小时内而不是几天内启动 AI 业务。"
+        "title": "为什么 Mazu 总共 2.5GB？",
+        "description": "应用本身是 210MB，但 Gemma 3n AI 模型是 2.3GB。这是一个在您设备上运行的完整 AI 大脑 - 无需互联网。将其视为下载您所需的所有紧急知识。"
       },
       {
-        "title": "使用 ShipAny 需要高级技术技能吗？",
-        "description": "虽然基本的编程知识会有帮助，但 ShipAny 设计得非常开发者友好。我们的模板和文档使您即使不是 AI 或云基础设施专家也能轻松入门。"
+        "title": "离线 AI 实际上是如何工作的？",
+        "description": "Mazu 使用 GGUF 格式的 Google Gemma 3n 模型，该格式针对移动设备进行了优化。所有 AI 处理都在您手机的处理器上进行 - 无需云服务器，无需互联网连接。"
       },
       {
-        "title": "我可以用 ShipAny 构建什么类型的 AI SaaS？",
-        "description": "ShipAny 支持广泛的 AI 应用，从内容生成到数据分析工具。我们的模板涵盖流行用例，如 AI 聊天机器人、内容生成器、图像处理应用等。"
+        "title": "Mazu 支持哪些紧急情况？",
+        "description": "Mazu 基于红十字会协议和紧急响应指南进行训练。它涵盖地震、火灾、洪水、飓风、医疗紧急情况、停电和一般灾害场景。"
       },
       {
-        "title": "使用 ShipAny 通常需要多长时间才能启动？",
-        "description": "使用 ShipAny，您可以在几小时内完成工作原型，并在几小时内完成生产就绪的应用。我们的一键部署和预配置基础设施显著缩短了传统的数月开发周期。"
+        "title": "电池使用情况如何？",
+        "description": "Mazu 针对紧急使用进行了优化。在待机状态下，它使用最少的电池。在主动使用期间，它相当于使用消息应用。我们建议作为应急准备的一部分保持您的手机充电。"
       },
       {
-        "title": "ShipAny 的基础设施包括什么？",
-        "description": "ShipAny 提供完整的基础设施栈，包括身份验证、数据库设置、API 集成、支付处理和可扩展的云部署。一切都按照行业最佳实践预先配置。"
+        "title": "我可以信任 Mazu 的建议吗？",
+        "description": "Mazu 遵循红十字会等组织的既定紧急协议。然而，它是一个 AI 助手，不能替代专业紧急服务。在可用时，始终请拨打官方紧急电话。"
       },
       {
-        "title": "我可以自定义模板以匹配我的品牌吗？",
-        "description": "当然可以！所有 ShipAny 模板都完全可定制。您可以修改设计、功能和功能性以匹配您的品牌标识和特定业务需求，同时保持强大的底层基础设施。"
+        "title": "Mazu 真的免费吗？",
+        "description": "是的，完全免费。没有订阅费，没有应用内购买，没有广告。这是我们为 Google Gemma 开发者竞赛提交的作品，旨在帮助紧急情况下的人们。"
       }
     ]
   },
   "cta": {
     "name": "cta",
-    "title": "启动您的第一个 AI SaaS 创业项目",
-    "description": "从这里开始，使用 ShipAny 启动。",
+    "title": "让 Mazu 守护您",
+    "description": "今天下载您的守护 AI。因为有时候，技术应该像风暴中的灯塔一样可靠。",
     "buttons": [
       {
-        "title": "获取 ShipAny",
-        "url": "https://shipany.ai",
+        "title": "下载完整包 (2.5GB)",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
         "target": "_blank",
-        "icon": "GoArrowUpRight"
+        "icon": "RiDownloadLine"
       },
       {
-        "title": "阅读文档",
-        "url": "https://docs.shipany.ai",
+        "title": "在 GitHub 上查看",
+        "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
         "target": "_blank",
         "variant": "outline"
       }
@@ -387,19 +449,19 @@
   "footer": {
     "name": "footer",
     "brand": {
-      "title": "ShipAny",
-      "description": "ShipAny 是一个用于构建 AI SaaS 创业项目的 NextJS 模板。通过丰富的模板和组件快速启动。",
+      "title": "Mazu",
+      "description": "您的守护 AI，完全离线工作。以保护处于危险中的人们的妈祖女神命名。",
       "logo": {
         "src": "/logo.png",
-        "alt": "ShipAny"
+        "alt": "Mazu"
       },
       "url": "/"
     },
-    "copyright": "© 2025 • ShipAny 保留所有权利。",
+    "copyright": "© 2025 • 为 Google Gemma 开发者竞赛用 ❤️ 制作",
     "nav": {
       "items": [
         {
-          "title": "关于",
+          "title": "快速链接",
           "children": [
             {
               "title": "功能特点",
@@ -407,13 +469,13 @@
               "target": "_self"
             },
             {
-              "title": "案例展示",
-              "url": "/#showcase",
+              "title": "如何使用",
+              "url": "/#usage",
               "target": "_self"
             },
             {
-              "title": "定价",
-              "url": "/#pricing",
+              "title": "紧急场景",
+              "url": "/#showcase",
               "target": "_self"
             }
           ]
@@ -422,39 +484,39 @@
           "title": "资源",
           "children": [
             {
-              "title": "文档",
-              "url": "https://docs.shipany.ai",
+              "title": "GitHub 仓库",
+              "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
               "target": "_blank"
             },
             {
-              "title": "组件",
-              "url": "https://shipany.ai/components",
+              "title": "下载 APK",
+              "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/releases/latest",
               "target": "_blank"
             },
             {
-              "title": "模板",
-              "url": "https://shipany.ai/templates",
+              "title": "报告问题",
+              "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/issues",
               "target": "_blank"
             }
           ]
         },
         {
-          "title": "友情链接",
+          "title": "关于",
           "children": [
             {
-              "title": "ThinkAny",
-              "url": "https://thinkany.ai",
+              "title": "Google Gemma",
+              "url": "https://ai.google.dev/gemma",
               "target": "_blank"
             },
             {
-              "title": "HeyBeauty",
-              "url": "https://heybeauty.ai",
+              "title": "竞赛作品",
+              "url": "https://ai.google.dev/competition",
               "target": "_blank"
             },
             {
-              "title": "Pagen",
-              "url": "https://pagen.so",
-              "target": "_blank"
+              "title": "隐私",
+              "url": "/privacy-policy",
+              "target": "_self"
             }
           ]
         }
@@ -463,28 +525,10 @@
     "social": {
       "items": [
         {
-          "title": "X",
-          "icon": "RiTwitterXFill",
-          "url": "https://x.com/shipanyai",
-          "target": "_blank"
-        },
-        {
           "title": "Github",
           "icon": "RiGithubFill",
-          "url": "https://github.com/shipanyai",
+          "url": "https://github.com/Aurora-yang-git/Disaster-Assistant",
           "target": "_blank"
-        },
-        {
-          "title": "Discord",
-          "icon": "RiDiscordFill",
-          "url": "https://discord.gg/HQNnrzjZQS",
-          "target": "_blank"
-        },
-        {
-          "title": "邮箱",
-          "icon": "RiMailLine",
-          "url": "mailto:support@shipany.ai",
-          "target": "_self"
         }
       ]
     },
@@ -495,8 +539,8 @@
           "url": "/privacy-policy"
         },
         {
-          "title": "服务条款",
-          "url": "/terms-of-service"
+          "title": "开源许可",
+          "url": "https://github.com/Aurora-yang-git/Disaster-Assistant/blob/main/LICENSE"
         }
       ]
     }
