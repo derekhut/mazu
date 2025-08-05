@@ -23,7 +23,7 @@ interface Scenario {
   };
 }
 
-const scenarios: Scenario[] = {
+const scenarios: Record<string, Scenario> = {
   emergency: {
     id: "emergency",
     title: "Emergency",
